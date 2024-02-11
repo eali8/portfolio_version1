@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>CSS ANIMATIONS</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <nav class="topNav">
+        <div class="container w-100 d-flex h-10 j-between pt-1">
+            <div class="w-25">
+                <a class="h-100-v" href="index.html"><img class="h-100-v" src="img/Emine_Ali_Logos-01.png" alt=""></a>
+            </div>
+            <div class="h-100-v w-75 txt-end d-flex j-end cn-align-center">
+                <ul id="long-menu" class="w-50 h-30-v d-flex j-even">
+                    <li><a class="h-100-v" href="projects.html">PROJECTS</a></li>
+                    <li><a class="h-100-v" href="about.html">ABOUT</a></li>
+                    <li><a class="h-100-v" href="#">CONTACT</a></li>
+                </ul>
+                <i id="menu-tg" class='toggle-item bx bx-palette bx-lg' style="cursor: pointer; color: var(--pro-blue);" ></i>
+            </div>
+        </div>
+        <div id="menu-tg-block" class="toggle-menu grid w-100">
+            <div class="menu-item d-flex cn-center p-4 col-12">
+                <a class="h-100-v" href="projects.html">PROJECTS</a>
+            </div>
+            <div class="menu-item d-flex cn-center p-4  col-12">
+                <a class="h-100-v" href="about.html">ABOUT</a>
+            </div>
+            <div class="menu-item d-flex cn-center p-4  col-12">
+                <a class="h-100-v" href="projects.html">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="pb-3">
+            <section class="bg-light">
+                <div class="grid">
+                   <div class="grid col-12">
+                       <div class="col-12 col-6-lg p-5">
+                           <div class="row-4 txt-center px-5">
+                               <h3 class="c-blue">Web Animations </h3>
+                               <h5>Designing and developing animations </h5>
+                           </div>
+                           <div class="row-2 p-5 d-flex cn-center">
+                               <img class="w-100" src="img/Group 472 (1).png">
+                           </div>
+                       </div>
+                       <div class="col-12 col-6-lg p-4 pb-5 pt-20">
+                           <div class="row-4 grid p-1">
+                               <div class="col-4">
+                                   <h4 class="c-blue">Role:</h4>
+                                   <ul class="project-list">
+                                       <li>Developer</li>
+                                   </ul>
+                               </div>
+                               <div class="col-4">
+                                   <h4 class="c-blue">Timeline:</h4>
+                                   <ul class="project-list">
+                                       <li>11 Week Duration</li>
+                                   </ul> 
+                               </div>
+                               <div class="col-4">
+                                   <h4 class="c-blue">Tools</h4>
+                                   <ul class="project-list">
+                                       <li>CSS</li>
+                                       <li>JavaScript</li>
+                                       <li>GSAP</li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <div class="row-2 p-2">
+                               <h4 class="c-blue">Overview</h4>
+                               <p>
+                                A collection of animation projects created using different methods. 
+                                <br><br>
+                                These projects utilized keyframes, request animation frame, and various GSAP methods to produce static and interactive animations. 
+                                </p>
+                           <div class="col-12 txt-center">
+                               <input id="input-tg" class="btn btn-blue input-tg" type="button" value="CHECK PROJECT">
+                           </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </section>
+            <section class="tg-section">
+                <div class="container pt-2">
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>CSS Animations</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h3 class="c-blue">CSS Animations</h3>
+                            <p>
+                                These animation projects were exclusively crafted using CSS, and these animations occur automatically upon page loading. 
+                            </p>
+                        </div>
+                        <div class="pt-2">
+                            <div>
+                                <h3 class="c-blue">Transition and Transform: </h3>
+                                <p>
+                                    The primary objective of the first project was to design a 2x2 image-based navigational interface, adhering to specific requirements: the use of flexbox, pseudo-classes, and pseudo-elements to position elements and create interactive elements.
+                                    In pursuit of this goal, I crafted a clean, minimalist interface. To add an engaging touch, I skillfully manipulated transitions, adjusting the timing of various elements to create a delayed text effect. 
+                                </p>
+                            </div>
+                            <div class="bg-pink d-flex cn-center p-5">
+                                <video loop autoplay="true" class="img-3">
+                                    <source  src="videos/Assignment 1 Animation .mov" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>CSS Transition $ Transform</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <h3 class="c-blue">CSS Preloader:</h3>
+                        <p>
+                            I've carefully created individual seeds for the watermelon and used the @keyframes slice animation to make it look like it's being sliced.
+                            I used the .seed1, .seed2, .seed3, .seed4, and .seed5 classes to make different seeds inside the watermelon, placing them precisely. I also used the .cut-1:before pseudo-element to create the inner part of the cut. It has specific dimensions and styling, including a border-bottom with rounded corners to simulate the appearance of a watermelon slice.
+                        </p>
+                        <div class="bg-yellow d-flex cn-center p-5">
+                            <video loop autoplay="true" class="img-2">
+                                <source src="videos/CSS Preloader.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>Background Animation</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h4 class="c-blue">Background Animation: </h4>
+                            <p>
+                                This Background Animation defines the styling for a responsive webpage with dynamic elements. The webpage employs flexbox to center its content both horizontally and vertically, featuring a captivating scrolling background effect created by the .bg element. This background scrolls smoothly in a loop, offering an illusion of motion. The code also adapts to different screen orientations, optimizing element dimensions and positions for landscape and portrait modes. Additionally, for smaller screens, the background color changes, making it mobile-friendly.
+                            </p>
+                        </div>
+                        <div class="bg-pink d-flex cn-center p-5" >
+                            <video loop autoplay="true" class="img-2">
+                                <source src="videos/bakc animation 2_1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>SVG Animate</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h4 class="c-blue">SVG Animate:</h4>
+                            <p>
+                                This SVG Animate combines SVG and CSS to create an animated graphical display. The SVG code within the "svg" element includes a "rect" element and a "path" element, each with animation properties. The "rect" element undergoes a transformation animation that changes its position, size, and color over a 6-second duration. The "path" element has a dash animation that creates a dynamic border around the image. The CSS styles define the background color, positioning, and animation properties, such as keyframes for both the "rect" and the "path". The footer contains attribution to the source of the code. This code produces an interactive visual effect with a rectangle and a dashed border.
+                            </p>
+                        </div>
+                        <div class="bg-pink d-flex cn-center p-5" >
+                            <video loop autoplay="true" class="img-2">
+                                <source src="videos/SVG ANimate.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>Animation CSS Events</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h4 class="c-blue">Animation CSS Events: </h4>
+                            <p>
+                                This is an example of CSS animations triggered by events. It sets up a webpage with an animated circle element. When the animation starts, it changes the background color to pink, and when it reaches the iteration phase, the background becomes steel blue. Finally, when the animation ends, the background color shifts to khaki. The script section utilizes JavaScript to listen for animation events on the "circle" element, including "animationstart," "animationiteration," and "animationend," and responds by altering the background color of the entire body. This code demonstrates the interaction between CSS animations and JavaScript events to create dynamic visual effects on a webpage.
+                            </p>
+                        </div>
+                        <div class="bg-pink d-flex cn-center p-5" >
+                            <video loop autoplay="true" class="img-2">
+                                <source src="videos/CSS Events.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>Controlling CSS with JavaScript</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h4 class="c-blue">Controlling CSS with JavaScript:</h4>
+                            <p>
+                                This code showcases a dynamic animation created through JavaScript and CSS. It includes a moving box element inside a container, along with "STOP" and "RESET" buttons. JavaScript functions control the animation behavior. The animation is triggered by a "PLAY" button that moves the box horizontally across the screen. Clicking the "STOP" button pauses the animation, and "RESET" resets the animation to its initial position. The code relies on requestAnimationFrame to smoothly move the box, allowing users to play, pause, and reset the animation as desired. Overall, this code demonstrates interactive animation control through JavaScript events, making it suitable for learning and experimentation.
+                            </p>
+                        </div>
+                        <div class="bg-pink d-flex cn-center p-5" >
+                            <video loop autoplay="true" class="img-2">
+                                <source src="videos/Controlling CSS with JS.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>        
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>GSAP Timeline:</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h4 class="c-blue">GSAP Timeline</h4>
+                            <p>
+                                I learned to use GSAP to create timelines for my animations. GSAP is a JavaScript library for building animations on the web. <br>
+                                The GSAP library is used to set initial positions, create a text animation, and control the animation of the girl image. The "controller" section allows users to interact with the animation using the provided buttons. <br>
+                                The GSAP timeline orchestrates a series of animations, introducing elements with smooth transitions. The combination of these elements results in an attractive, interactive webpage with a playful yet elegant design. It showcases the versatility of GSAP and provides users with control over the animation.
+                            </p>
+                        </div>
+                        <div class="bg-pink d-flex cn-center p-5" >
+                            <video loop autoplay="true" class="img-2">
+                                <source src="videos/GSAP Timeline.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>        
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>GSAP Animation</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h4 class="c-blue">GSAP Animation:</h4>
+                            <p>
+                                Here I have incorporated the "SplitType" feature to animate individual characters in the title. The animation smoothly raises each character along the y-axis with a staggered effect. A brief delay (0.2 seconds) precedes the animation, which has a duration of 0.3 seconds for each character. <br>
+                                This code illustrates how to combine external libraries like GSAP with HTML and CSS to create captivating text animations. It enhances the visual appeal of the webpage and adds an interactive touch, making it particularly useful for web developers aiming to engage and inform their audience effectively.
+                            </p>
+                        </div>
+                        <div class="bg-pink d-flex cn-center p-5">
+                            <video id="GASP2" class="img-2" loop autoplay="true">
+                                <source src="videos/GSAP Name.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>            
+                    <div class="togglers w-100 d-flex j-between cn-align-center p-3">
+                        <h4>FINAL THOUGHTS</h4>
+                        <i class='bx bxs-up-arrow bx-md' style='color:#f5f3f3'></i>
+                    </div>
+                    <div class="tg-item p-5">
+                        <div>
+                            <h4 class="c-blue">FINAL THOUGHTS: </h4>
+                            <p>
+                                It has been an enriching learning experience, and throughout my second term at BCIT, I've gained substantial knowledge in coding, leading to increased confidence in my abilities.
+                            </p>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            <section>
+                <div class="grid txt-center">  
+                    <a href="/projects-1.html" class="col-12 m-5 d-flex cn-center txt-center decoration-none" style="font-size: 20px; font-weight: 900;">
+                        Children Charity Research Website
+                        <i class='bx bx-chevrons-right bx-fade-right bx-md' ></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer id="pro-foot" style="max-height: 30vh!important; overflow-y:hidden;">
+        <div class="grid">
+            <div class="col-4 txt-center">
+                <img src="img/Frame 1337.png" alt="">
+            </div>
+            <div style="line-height: 1.7rem;" class="col-12 col-4-md txt-center p-1">
+                <h5 class="c-grey-l">Let's Connect</h5>
+                <a class="c-blue" style="text-decoration: none;" href="mailto:emitooo852@gmail.com ">emitooo852@gmail.com</a>
+                <div class="ft-logos">
+                    <a class="decoration-none" href="https://www.facebook.com/emaslarova/">
+                        <i class='ct-items bx bxl-facebook bx-sm c-grey-l'></i> 
+                    </a> 
+                    <a class="decoration-none" href="https://www.instagram.com/missevrem/">
+                        <i class='ct-items bx bxl-instagram bx-sm c-grey-l'></i>
+                    </a>
+                    <a class="decoration-none" href="https://www.linkedin.com/in/emine-ali/">
+                        <i class='ct-items bx bxl-linkedin bx-sm c-grey-l'></i>
+                    </a>
+                </div>
+                <small class="c-grey-l">Feel free to reach out for collaboration or just a friendly hello <img src="img/smile.png" width="20px" alt=""></small>
+                <h6 class="c-grey-l">Copyright &copy; 2023 Emmy Ali </h6>
+            </div>
+            <div class="col-4">
+                <img class="ps-rel" src="img/sprinckles 2.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/animation.js"></script>
+    <script>
+
+        $(document).ready(
+            $(".input-tg").eq(0).on( "click", function() {
+                $(".tg-section").eq(0).slideToggle("slow");}),
+        );
+
+        $(document).ready(
+            $(".togglers").eq(0).on( "click", function() {  
+                $(".tg-item").eq(0).slideToggle("slow");
+                $(".togglers i").eq(0).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(1).on( "click", function() {  
+                $(".tg-item").eq(1).slideToggle("slow");
+                $(".togglers i").eq(1).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(2).on( "click", function() {  
+                $(".tg-item").eq(2).slideToggle("slow");
+                $(".togglers i").eq(2).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(3).on( "click", function() {  
+                $(".tg-item").eq(3).slideToggle("slow");
+                $(".togglers i").eq(3).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(4).on( "click", function() {  
+                $(".tg-item").eq(4).slideToggle("slow");
+                $(".togglers i").eq(4).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(5).on( "click", function() {  
+                $(".tg-item").eq(5).slideToggle("slow");
+                $(".togglers i").eq(5).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(6).on( "click", function() {  
+                $(".tg-item").eq(6).slideToggle("slow");
+                $(".togglers i").eq(6).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(7).on( "click", function() {  
+                $(".tg-item").eq(7).slideToggle("slow");
+                $(".togglers i").eq(7).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+            $(".togglers").eq(8).on( "click", function() {  
+                $(".tg-item").eq(8).slideToggle("slow");
+                $(".togglers i").eq(8).toggleClass("bxs-down-arrow bxs-up-arrow");
+            }),
+        );
+
+    </script>
+</body>
+</html>
